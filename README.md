@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This project is a playground for messing around with the Spring Framework and Spring Boot without a lot of silly, distracting real code to get in the way.
+My personal funhouse for messing around with auto-(magical|maniacal) Spring Framework and Spring Boot configuration.
 
 ### Reference Documentation
 
