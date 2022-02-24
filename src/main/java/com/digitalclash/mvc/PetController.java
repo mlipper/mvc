@@ -1,4 +1,4 @@
-package gov.nyc.doitt.geoclient.service;
+package com.digitalclash.mvc;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;

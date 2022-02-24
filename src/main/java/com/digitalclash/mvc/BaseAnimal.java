@@ -1,4 +1,4 @@
-package gov.nyc.doitt.geoclient.service;
+package com.digitalclash.mvc;
 
 public abstract class BaseAnimal implements Animal {
     protected String name;

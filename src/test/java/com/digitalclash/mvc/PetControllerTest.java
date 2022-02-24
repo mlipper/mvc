@@ -1,4 +1,4 @@
-package gov.nyc.doitt.geoclient.service;
+package com.digitalclash.mvc;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;

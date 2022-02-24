@@ -1,4 +1,4 @@
-package gov.nyc.doitt.geoclient.service;
+package com.digitalclash.mvc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

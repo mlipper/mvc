@@ -1,4 +1,4 @@
-package gov.nyc.doitt.geoclient.service;
+package com.digitalclash.mvc;
 
 public interface Animal {
     String getName();

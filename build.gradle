@@ -5,17 +5,11 @@ plugins {
 	id 'maven-publish'
 }
 
-group = 'gov.nyc.doitt.geoclient'
-version = '2.0.1-SNAPSHOT'
+group = 'com.digitalclash'
+version = '1.0.0'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
-
-//java {
-//    toolchain {
-//        languageVersion = JavaLanguageVersion.of(11)
-//    }
-//}
 
 repositories {
 	mavenCentral()
@@ -47,7 +41,11 @@ publishing {
     }
     publications {
         gpr(MavenPublication) {
-            from(components.java)
+            groupId = project.group
+            artifactId = project.name
+            version = project.version
+
+            from components.java
         }
     }
 }
