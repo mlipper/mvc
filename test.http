@@ -1,0 +1,2 @@
+http://localhost:8080/pets/xml/dog?name=Otis&format=xml
+Content-Type: application/xml
