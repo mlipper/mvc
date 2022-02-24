@@ -1,2 +1,23 @@
-http://localhost:8080/pets/xml/dog?name=Otis&format=xml
-Content-Type: application/xml
+@hostname = localhost
+@port = 8080
+@host = {{hostname}}:{{port}}
+
+###
+
+http://{{host}}/pets/dog?name=Otis
+
+###
+
+http://{{host}}/pets/dog?name=Otis&format=json
+
+###
+
+http://{{host}}/pets/dog.json?name=Otis
+
+###
+
+http://{{host}}/pets/dog?name=Otis&format=xml
+
+###
+
+http://{{host}}/pets/dog.xml?name=Otis
