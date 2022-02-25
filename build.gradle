@@ -45,7 +45,8 @@ publishing {
             artifactId = project.name
             version = project.version
 
-            from components.java
+            artifact bootJar
+            //from components.java
         }
     }
 }
